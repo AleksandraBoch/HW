@@ -1,0 +1,18 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.hwTitle {
+    margin-top: 50px;
+    font-size: 22px;
+    margin-left: 50px;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align: center;
+}

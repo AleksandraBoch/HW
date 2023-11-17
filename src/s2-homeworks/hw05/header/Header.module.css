@@ -1,0 +1,19 @@
+.burgerMenuIcon {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left:20px;
+    cursor: pointer;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+
+}
+
+.header h1 {
+    margin-right: 20px;
+}

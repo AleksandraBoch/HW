@@ -9,6 +9,7 @@ type PropsType = {
 }
 
 export const Header: FC<PropsType> = ({handleOpen}) => {
+
     // hw5-menu изначально отсутствует, при нажатии на бургер - появляется, при повторном нажатии исчезает
     const location = useLocation()
     const currentPath = location.pathname
@@ -30,6 +31,7 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                     className={s.burgerMenuIcon}
                     onClick={handleOpen}
                     alt={'open menu'}
+
                 />
                 <h1>{pageName}</h1>
             </div>
