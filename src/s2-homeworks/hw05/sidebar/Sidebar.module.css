@@ -1,7 +1,5 @@
 .sidebar {
     display: flex;
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
     position: fixed;
     height: 100vh;
     width: 317px;
@@ -25,6 +23,7 @@
 }
 
 .nav a {
+    margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
     background-image: linear-gradient(
@@ -71,6 +70,7 @@
     height: 30px;
     width: 30px;
     position: center;
+
 }
 
 .close img {

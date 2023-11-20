@@ -19,5 +19,8 @@ html {
 }
 
 .select {
+    height: 36px;
+    width: 171px;
+    margin-top: 6px;
 
 }
