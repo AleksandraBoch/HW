@@ -1,11 +1,12 @@
 .button {
     width: 149px;
-height: 30px;
-top: 261px;
-left: 574px;
-padding: 5px 24px 5px 24px;
-border-radius: 3px;
-gap: 10px;
+    height: 30px;
+    top: 261px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background: #0066CC;
 
 }
 
@@ -20,7 +21,7 @@ gap: 10px;
 }
 
 .red {
-    color:firebrick;
+    color: firebrick;
 }
 
 .default:hover {
